@@ -1,6 +1,196 @@
+
+@font-face {
+    font-family: 'modekaregular';
+    src: url('modeka-webfont.woff2') format('woff2'),
+         url('modeka-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Prime-Regular';
+    src:url('Prime-Regular.ttf.woff') format('woff'),
+        url('Prime-Regular.ttf.svg#Prime-Regular') format('svg'),
+        url('Prime-Regular.ttf.eot'),
+        url('Prime-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
 .fundo {
-    border: 2px solid red;
-    background-color: red;
+    background-color: #f5efe3;
+    margin: 2px;
+    padding: 2px;
+    width: 350px;
+    height: 600px;
+}
+
+.placar1{
+    margin: 40px 40px 0px ;
+    /*text-shadow: 1px 1px grey;*/
+}
+
+.placar2{
+    margin: 0px 0px 40px 70px ;
+    /*text-shadow: 1px 1px grey;*/
+}
+
+.level{
+    font-family: 'modekaregular';
+    font-weight: bold;
+    color: #e06961;
+    font-size: 35px;
+    text-align: left;
+    display: inline;
+    margin: 0px 130px 0px 0px;
+}
+
+.time{
+    font-family: 'modekaregular';
+    font-weight: bold;
+    color: #e06961;
+    font-size: 35px;
+    text-align: right;
+    display: inline;
+}
+
+.varlevel{
+    font-family: 'Prime-Regular';
+    color: #929292;
+    font-size: 20px;
+    text-align: left;
+    display: inline;
+    margin: 0px 170px 0px 0px;
+}
+
+.vartime{
+    font-family: 'Prime-Regular';
+    color: #929292;
+    font-size: 20px;
+    text-align: right;
+    display: inline;
+}
+
+.titulo{
+    font-family: 'modekaregular';
+    margin: 70px 50px 70px 50px;
+    font-size: 70px;
+    text-align: center;
+    color: #e06961;
+    text-shadow: 1px 1px grey;
+}
+
+
+.campanha2 {
+    background-color: #929292;
+    width: 180px;
+    height: 25px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Prime-Regular';
+    color: white;
+    padding: 3px;
+    border-radius: 25px;
+}
+
+.campanha1 {
+    background-color: white;
+    width: 180px;
+    height: 25px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Prime-Regular';
+    color: #929292;
+    padding: 3px;
+    border-radius: 25px;
+}
+
+table{
+    margin: 70px 60px;
     
 }
 
+.table{
+    margin: auto;
+    
+}
+.config{
+    width: 50px;
+    height: 50px;
+    background-color: #97d4ae;
+    border: 10px solid #97d4ae;
+    border-radius: 50px;
+    margin: 2px;
+}
+
+.rank{
+    width: 50px;
+    height: 50px;
+    background-color: #96c4c9;
+    border: 10px solid #96c4c9;
+    border-radius: 50px;
+    margin: 2px;
+}
+
+.luz{
+    width: 50px;
+    height: 50px;
+    background-color: #e7a45e;
+    border: 10px solid #e7a45e;
+    border-radius: 50px;
+    margin: 2px;
+}
+
+.imgb{
+    width: 40px;
+    height: 40px;
+    margin: 4;
+}
+
+.imgc{
+    width: 30px;
+    height: 40px;
+    margin: -3px;
+}
+
+.verde{
+    width: 30px;
+    height: 30px;
+    background-color: #97d4ae;
+    border: 10px solid #97d4ae;
+    border-radius: 50px;
+    margin: 2px;
+}
+
+.azul{
+    width: 30px;
+    height: 30px;
+    background-color: #96c4c9;
+    border: 10px solid #96c4c9;
+    border-radius: 50px;
+    margin: 2px;
+}
+
+.laranja{
+    width: 30px;
+    height: 30px;
+    background-color: #e7a45e;
+    border: 10px solid #e7a45e;
+    border-radius: 50px;
+    margin: 2px;
+}
+
+.amarelo{
+    width: 30px;
+    height: 30px;
+    background-color: #ebd46d;
+    border: 10px solid #ebd46d;
+    border-radius: 50px;
+    margin: 0px 50px;
+}
+
+.footer{
+    margin: auto;
+    padding: 60px 0px 40px;
+}
