@@ -37,6 +37,8 @@
     width: fit-content;
 }
 
+
+
 .fontstyle1{
     font-family: 'modekaregular';
     font-weight: bold;
@@ -93,7 +95,8 @@
 }
 
 table{
-    margin: 50 auto;
+    margin: auto;
+    padding: 30px 0px;
 }
 
 .config{
@@ -177,5 +180,5 @@ table{
 .game{
     margin: 0 auto;
     width: fit-content;
-    padding: 0px 0px 40px;
+    padding: 40px 0px 40px;
 }
