@@ -20,14 +20,15 @@
 
 .fundo {
     background-color: #f5efe3;
-    margin: 2px;
     padding: 2px;
     width: 350px;
     height: 600px;
 }
+
 .link{
     text-decoration: none;
 }
+
 .placar{
     margin: 30px 0px;
 }
@@ -36,7 +37,6 @@
     margin: 0 auto ;
     width: fit-content;
 }
-
 
 
 .fontstyle1{
@@ -65,120 +65,86 @@
     text-shadow: 1px 1px grey;
 }
 
-
-.campanha2 {
-    background-color: #929292;
-    width: 180px;
-    height: 25px;
-    margin: auto;
-    text-align: center;
-    font-family: 'Prime-Regular';
-    color: white;
-    padding: 3px;
-    border-radius: 25px;
-    cursor:pointer;
-    user-select: none;
-}
-
-.campanha1 {
+.btnwhite{
     background-color: white;
+    color: #929292;
+}
+
+.btngrey{
+    background-color: #929292;
+    color: white;
+}
+
+.campaign {
     width: 180px;
     height: 25px;
     margin: auto;
     text-align: center;
     font-family: 'Prime-Regular';
-    color: #929292;
     padding: 3px;
     border-radius: 25px;
     cursor:pointer;
     user-select: none;
 }
+
 
 table{
     margin: auto;
     padding: 30px 0px;
 }
 
-.config{
-    width: 50px;
-    height: 50px;
+.btnverde{
     background-color: #97d4ae;
     border: 10px solid #97d4ae;
+}
+
+.btnazul{
+    background-color: #96c4c9;
+    border: 10px solid #96c4c9;
+}
+
+.btnlar{
+    background-color: #e7a45e;
+    border: 10px solid #e7a45e;
+}
+
+.btnam{
+    background-color: #ebd46d;
+    border: 10px solid #ebd46d;
+}
+
+.btngde{
+    width: 50px;
+    height: 50px;
     border-radius: 50px;
     margin: 2px;
 }
 
-.rank{
-    width: 50px;
-    height: 50px;
-    background-color: #96c4c9;
-    border: 10px solid #96c4c9;
+.btnpeq{
+    width: 30px;
+    height: 30px;
     border-radius: 50px;
     margin: 2px;
     
-}
-
-.luz{
-    width: 50px;
-    height: 50px;
-    background-color: #e7a45e;
-    border: 10px solid #e7a45e;
-    border-radius: 50px;
-    margin: 2px;
 }
 
 .imgc{
     width: 30px;
     height: 40px;
-    margin: -3px;
+    margin: 0 auto;
     cursor:pointer;
 }
 
-.verde{
-    width: 30px;
-    height: 30px;
-    background-color: #97d4ae;
-    border: 10px solid #97d4ae;
-    border-radius: 50px;
-    margin: 2px;
+.imgb{
+    width:50px;
+    height: 50px;
+    cursor:pointer;
 }
 
-.azul{
-    width: 30px;
-    height: 30px;
-    background-color: #96c4c9;
-    border: 10px solid #96c4c9;
-    border-radius: 50px;
-    margin: 2px;
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    align-items: center;
 }
 
-.laranja{
-    width: 30px;
-    height: 30px;
-    background-color: #e7a45e;
-    border: 10px solid #e7a45e;
-    border-radius: 50px;
-    margin: 2px;
-    
-}
-
-.amarelo{
-    width: 30px;
-    height: 30px;
-    background-color: #ebd46d;
-    border: 10px solid #ebd46d;
-    border-radius: 50px;
-    margin: 0 50px;
-}
-
-.index{
-    margin: 0 auto;
-    width: fit-content;
-    padding: 60px 0px 40px;
-}
-
-.game{
-    margin: 0 auto;
-    width: fit-content;
-    padding: 40px 0px 40px;
-}
